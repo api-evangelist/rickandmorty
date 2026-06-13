@@ -1,0 +1,77 @@
+aid: rickandmorty
+name: Rick and Morty API
+description: Free REST and GraphQL API providing data about characters, locations, and episodes from the Rick and Morty animated series. No authentication required. Offers access to 826 characters, 126 locations, and 51 episodes with filtering, pagination, and character images.
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: https://raw.githubusercontent.com/api-evangelist/rickandmorty/refs/heads/main/apis.yml
+created: '2026-06-13'
+modified: '2026-06-13'
+specificationVersion: '0.19'
+tags:
+  - Rick and Morty
+  - Characters
+  - Episodes
+  - Locations
+  - Entertainment
+  - GraphQL
+  - REST
+  - Free
+  - Open Source
+apis:
+  - name: Rick and Morty REST API
+    description: RESTful API providing access to characters, locations, and episodes from the Rick and Morty animated series. Returns paginated JSON responses with up to 20 results per page.
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://rickandmortyapi.com/documentation
+    baseURL: https://rickandmortyapi.com/api
+    tags:
+      - Rick and Morty
+      - Characters
+      - Episodes
+      - Locations
+      - REST
+    properties:
+      - type: Documentation
+        url: https://rickandmortyapi.com/documentation
+      - type: OpenAPI
+        url: https://rickandmortyapi.com/api
+  - name: Rick and Morty GraphQL API
+    description: GraphQL endpoint for querying Rick and Morty characters, locations, and episodes with flexible field selection and filtering.
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://rickandmortyapi.com/documentation#graphql
+    baseURL: https://rickandmortyapi.com/graphql
+    tags:
+      - Rick and Morty
+      - GraphQL
+      - Characters
+      - Episodes
+      - Locations
+    properties:
+      - type: Documentation
+        url: https://rickandmortyapi.com/documentation#graphql
+      - type: GraphQL
+        url: https://rickandmortyapi.com/graphql
+common:
+  - type: Website
+    url: https://rickandmortyapi.com
+  - type: Documentation
+    url: https://rickandmortyapi.com/documentation
+  - type: GitHubOrg
+    url: https://github.com/afuh
+  - type: GitHubRepository
+    url: https://github.com/afuh/rick-and-morty-api
+  - type: Blog
+    url: https://github.com/afuh/rick-and-morty-api/blob/master/CHANGELOG.md
+  - type: Pricing
+    url: https://rickandmortyapi.com/support-us
+  - type: StatusPage
+    url: https://status.rickandmortyapi.com
+  - type: Plans
+    url: plans/rickandmorty-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/rickandmorty-rate-limits.yml
+  - type: FinOps
+    url: finops/rickandmorty-finops.yml
+  - type: License
+    url: https://github.com/afuh/rick-and-morty-api/blob/master/LICENSE
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com

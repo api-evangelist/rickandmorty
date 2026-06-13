@@ -1,0 +1,20 @@
+name: Rick and Morty API Plans and Pricing
+description: The Rick and Morty API is entirely free to use with no paid tiers or subscription plans. The project is open source and volunteer-maintained, funded through community donations.
+url: https://rickandmortyapi.com/support-us
+plans:
+  - name: Free
+    description: Full access to the Rick and Morty REST and GraphQL API at no cost. No API key or authentication required.
+    price: 0.00
+    currency: USD
+    unit: month
+    features:
+      - Full REST API access (characters, locations, episodes)
+      - GraphQL endpoint access
+      - Up to 10,000 requests per day per IP
+      - JSON responses with pagination
+      - Character image URLs included
+      - No authentication required
+notes: >
+  The API is maintained by Axel Fuhrmann as an open source project. Users are
+  encouraged to support the project through Ko-fi or Buy Me a Coffee donations
+  to help cover infrastructure costs (Netlify, Stellate CDN, DigitalOcean).

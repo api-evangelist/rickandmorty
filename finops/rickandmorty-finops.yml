@@ -1,0 +1,31 @@
+name: Rick and Morty API FinOps
+description: Financial operations considerations for consuming the Rick and Morty API. The API is free with no direct cost to consumers. FinOps considerations relate to infrastructure costs incurred by the API maintainer and any costs consumers may incur running dependent workloads.
+url: https://rickandmortyapi.com/support-us
+cost_to_consumer:
+  model: free
+  price_per_request: 0.00
+  currency: USD
+  notes: >
+    There is no cost to API consumers. The API is fully open and requires no
+    paid subscription or API key.
+cost_to_provider:
+  infrastructure:
+    - service: Netlify
+      purpose: Hosting and CDN for the API website and documentation
+    - service: Stellate
+      purpose: GraphQL CDN and caching layer for performance
+    - service: DigitalOcean
+      purpose: Backend compute and data hosting
+  funding_model: >
+    The project is volunteer-maintained by Axel Fuhrmann and funded through
+    community donations via Ko-fi and Buy Me a Coffee. There is no commercial
+    revenue model.
+  donation_url: https://rickandmortyapi.com/support-us
+consumer_finops_notes: >
+  Because the API is free with a 10,000 requests/day/IP rate limit, consumers
+  building production applications should plan for:
+  - Implementing local caching to reduce API call volume
+  - Spreading load across multiple IP addresses if higher throughput is needed
+  - Mirroring static data locally (826 characters, 126 locations, 51 episodes)
+    since the dataset is finite and changes infrequently
+  - No metering, billing, or usage-based cost tracking is required

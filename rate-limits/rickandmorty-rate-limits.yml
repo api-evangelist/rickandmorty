@@ -1,0 +1,27 @@
+name: Rick and Morty API Rate Limits
+description: Rate limiting details for the Rick and Morty API. The API is free and open but enforces per-IP daily request limits to prevent abuse.
+url: https://rickandmortyapi.com/documentation
+limits:
+  - name: Daily Request Limit
+    description: Maximum number of API requests allowed per IP address per day.
+    limit: 10000
+    unit: requests
+    period: day
+    scope: per-IP address
+    enforcement: >
+      If the daily limit of 10,000 requests is exceeded, the IP address will
+      receive HTTP 429 (Too Many Requests) responses for a cooldown period of
+      12 hours.
+  - name: Pagination
+    description: The API automatically paginates results, returning up to 20 documents per page.
+    limit: 20
+    unit: documents
+    period: per-request
+    scope: per-response
+notes: >
+  No authentication is required to use the API. Rate limits are enforced at
+  the IP level to prevent malicious usage. The GraphQL endpoint at
+  https://rickandmortyapi.com/graphql is subject to the same limits.
+headers:
+  - name: HTTP 429
+    description: Returned when the per-IP daily rate limit is exceeded. Restriction lasts 12 hours.
