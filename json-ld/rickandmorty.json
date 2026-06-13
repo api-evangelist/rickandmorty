@@ -1,0 +1,140 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "WebAPI": "https://schema.org/WebAPI",
+    "EntryPoint": "https://schema.org/EntryPoint",
+    "documentation": "https://schema.org/documentation",
+    "termsOfService": "https://schema.org/termsOfService"
+  },
+  "@type": "WebAPI",
+  "@id": "https://rickandmortyapi.com",
+  "name": "Rick and Morty API",
+  "description": "Free REST and GraphQL API providing data about characters, locations, and episodes from the Rick and Morty animated series. No authentication required. Offers access to 826 characters, 126 locations, and 51 episodes with filtering, pagination, and character images.",
+  "url": "https://rickandmortyapi.com",
+  "documentation": "https://rickandmortyapi.com/documentation",
+  "termsOfService": "https://github.com/afuh/rick-and-morty-api/blob/master/LICENSE",
+  "license": "https://github.com/afuh/rick-and-morty-api/blob/master/LICENSE",
+  "provider": {
+    "@type": "Person",
+    "name": "Axel Fuhrmann",
+    "url": "https://github.com/afuh"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD",
+    "description": "Free public API with optional support tier. No authentication required."
+  },
+  "availableChannel": [
+    {
+      "@type": "ServiceChannel",
+      "name": "REST API",
+      "serviceUrl": "https://rickandmortyapi.com/api",
+      "description": "RESTful API returning paginated JSON responses with up to 20 results per page."
+    },
+    {
+      "@type": "ServiceChannel",
+      "name": "GraphQL API",
+      "serviceUrl": "https://rickandmortyapi.com/graphql",
+      "description": "GraphQL endpoint for flexible querying of characters, locations, and episodes."
+    }
+  ],
+  "featureList": [
+    "826 characters with images, status, species, and episode appearances",
+    "126 locations with type, dimension, and resident references",
+    "51 episodes with air dates and character listings",
+    "No authentication required",
+    "Pagination with up to 20 results per page",
+    "Filtering by name, status, species, type, gender",
+    "Multiple ID lookup in single request",
+    "GraphQL and REST endpoints"
+  ],
+  "applicationCategory": "Entertainment",
+  "keywords": [
+    "Rick and Morty",
+    "characters",
+    "episodes",
+    "locations",
+    "animation",
+    "REST API",
+    "GraphQL",
+    "free API",
+    "open source"
+  ],
+  "codeRepository": "https://github.com/afuh/rick-and-morty-api",
+  "statusPage": "https://status.rickandmortyapi.com",
+  "dateCreated": "2017-11-04",
+  "dateModified": "2026-06-13",
+  "endpointDescription": {
+    "@type": "ItemList",
+    "name": "API Endpoints",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@type": "EntryPoint",
+          "name": "Get All Characters",
+          "urlTemplate": "https://rickandmortyapi.com/api/character",
+          "httpMethod": "GET",
+          "description": "Returns paginated list of all 826 characters. Supports filtering by name, status, species, type, gender."
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "item": {
+          "@type": "EntryPoint",
+          "name": "Get Character by ID",
+          "urlTemplate": "https://rickandmortyapi.com/api/character/{id}",
+          "httpMethod": "GET",
+          "description": "Returns a single character by integer ID. Supports multiple IDs as array."
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "@type": "EntryPoint",
+          "name": "Get All Locations",
+          "urlTemplate": "https://rickandmortyapi.com/api/location",
+          "httpMethod": "GET",
+          "description": "Returns paginated list of all 126 locations. Supports filtering by name, type, dimension."
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "item": {
+          "@type": "EntryPoint",
+          "name": "Get Location by ID",
+          "urlTemplate": "https://rickandmortyapi.com/api/location/{id}",
+          "httpMethod": "GET",
+          "description": "Returns a single location by integer ID. Supports multiple IDs as array."
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "item": {
+          "@type": "EntryPoint",
+          "name": "Get All Episodes",
+          "urlTemplate": "https://rickandmortyapi.com/api/episode",
+          "httpMethod": "GET",
+          "description": "Returns paginated list of all 51 episodes. Supports filtering by name and episode code."
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 6,
+        "item": {
+          "@type": "EntryPoint",
+          "name": "Get Episode by ID",
+          "urlTemplate": "https://rickandmortyapi.com/api/episode/{id}",
+          "httpMethod": "GET",
+          "description": "Returns a single episode by integer ID. Supports multiple IDs as array."
+        }
+      }
+    ]
+  }
+}

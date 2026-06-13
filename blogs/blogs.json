@@ -1,0 +1,45 @@
+{
+  "aid": "rickandmorty",
+  "name": "Rick and Morty API",
+  "url": "https://rickandmortyapi.com",
+  "blogUrl": "https://github.com/afuh/rick-and-morty-api/blob/master/CHANGELOG.md",
+  "fetched": "2026-06-13",
+  "posts": [
+    {
+      "title": "Add Insomnia API Collection",
+      "date": "2022-11-05",
+      "url": "https://github.com/afuh/rick-and-morty-api/commit/129",
+      "summary": "Added an Insomnia API collection to the repository, allowing developers to easily test the Rick and Morty REST API endpoints using the Insomnia HTTP client."
+    },
+    {
+      "title": "Fix GraphQL 404 Error",
+      "date": "2022-06-05",
+      "url": "https://github.com/afuh/rick-and-morty-api/commit/124",
+      "summary": "Fixed a bug where GraphQL endpoint was returning 404 errors for certain queries."
+    },
+    {
+      "title": "Fix Residents Conditional",
+      "date": "2022-06-04",
+      "url": "https://github.com/afuh/rick-and-morty-api/commit/123",
+      "summary": "Fixed a conditional bug affecting the residents field in location responses."
+    },
+    {
+      "title": "Add Season 5 Images",
+      "date": "2021-11-03",
+      "url": "https://github.com/afuh/rick-and-morty-api/commit/115",
+      "summary": "Added character images from Season 5 of Rick and Morty, expanding the image dataset for all newly introduced characters."
+    },
+    {
+      "title": "Add JavaScript Client Library",
+      "date": "2021-08-17",
+      "url": "https://github.com/afuh/rick-and-morty-api/commit/113",
+      "summary": "Added the official JavaScript client library to the readme, making it easier for JS developers to integrate with the Rick and Morty API."
+    },
+    {
+      "title": "Add Dart Client Library",
+      "date": "2021-08-08",
+      "url": "https://github.com/afuh/rick-and-morty-api/commit/112",
+      "summary": "Added a Dart client library for the Rick and Morty API, expanding support to Flutter and Dart developers."
+    }
+  ]
+}
