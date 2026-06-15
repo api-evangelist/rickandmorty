@@ -3,7 +3,7 @@
   "name": "Rick and Morty API",
   "url": "https://rickandmortyapi.com",
   "blogUrl": "https://github.com/afuh/rick-and-morty-api/blob/master/CHANGELOG.md",
-  "fetched": "2026-06-13",
+  "fetched": "2026-06-14T20:42:17Z",
   "posts": [
     {
       "title": "Add Insomnia API Collection",
@@ -41,5 +41,16 @@
       "url": "https://github.com/afuh/rick-and-morty-api/commit/112",
       "summary": "Added a Dart client library for the Rick and Morty API, expanding support to Flutter and Dart developers."
     }
-  ]
+  ],
+  "repo": "rickandmorty",
+  "feeds": [
+    {
+      "source": "https://github.com/afuh/rick-and-morty-api",
+      "feed_url": "https://github.com/afuh/rick-and-morty-api",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    }
+  ],
+  "post_count": 0
 }
