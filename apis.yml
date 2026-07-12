@@ -58,6 +58,8 @@ apis:
   - url: graphql/rickandmorty-graphql.md
     type: GraphQL
 common:
+- type: DomainSecurity
+  url: security/rickandmorty-domain-security.yml
 - type: Website
   url: https://rickandmortyapi.com
 - type: Documentation
