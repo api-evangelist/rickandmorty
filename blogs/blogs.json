@@ -3,7 +3,7 @@
   "name": "Rick and Morty API",
   "url": "https://rickandmortyapi.com",
   "blogUrl": "https://github.com/afuh/rick-and-morty-api/blob/master/CHANGELOG.md",
-  "fetched": "2026-06-27T13:05:56Z",
+  "fetched": "2026-07-11T11:50:51Z",
   "posts": [
     {
       "title": "Add Insomnia API Collection",
@@ -45,9 +45,11 @@
   "repo": "rickandmorty",
   "feeds": [
     {
-      "source": "https://github.com/afuh/rick-and-morty-api/blob/master/CHANGELOG.md",
+      "source": "https://github.com/afuh/rick-and-morty-api",
+      "feed_url": "https://github.com/afuh/rick-and-morty-api",
+      "title": "",
       "saved": 0,
-      "error": "HTTP 404 Not Found"
+      "method": "none"
     }
   ],
   "post_count": 0
