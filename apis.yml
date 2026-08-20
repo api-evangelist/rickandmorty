@@ -30,6 +30,16 @@ tags:
 - GraphQL
 - REST
 - Free
+- Open-Source
+tags_raw:
+- Rick and Morty
+- Characters
+- Episodes
+- Locations
+- Entertainment
+- GraphQL
+- REST
+- Free
 - Open Source
 apis:
 - name: Rick and Morty REST API
