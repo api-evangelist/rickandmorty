@@ -4,6 +4,18 @@ description: Free REST and GraphQL API providing data about characters, location
   and episodes from the Rick and Morty animated series. No authentication required.
   Offers access to 826 characters, 126 locations, and 51 episodes with filtering,
   pagination, and character images.
+deliveryModel:
+  model: unknown
+  open_source: unknown
+  commercial: true
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - pricing
+  - repository-unlicensed
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: free
   onboarding: open
@@ -80,6 +92,12 @@ apis:
   - url: graphql/rickandmorty-graphql.md
     type: GraphQL
 common:
+- type: IssueTracker
+  url: https://github.com/afuh/rick-and-morty-api/issues
+- type: CodeOfConduct
+  url: https://github.com/afuh/rick-and-morty-api/blob/master/CODE_OF_CONDUCT.md
+- type: ContributionGuide
+  url: https://github.com/afuh/rick-and-morty-api/blob/master/CONTRIBUTING.md
 - type: DomainSecurity
   url: security/rickandmorty-domain-security.yml
 - type: Website
