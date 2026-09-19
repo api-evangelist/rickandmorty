@@ -37,7 +37,7 @@ tags:
 - Rick and Morty
 - Characters
 - Episodes
-- Locations
+- Location
 - Entertainment
 - GraphQL
 - REST
@@ -65,6 +65,12 @@ apis:
   - Rick and Morty
   - Characters
   - Episodes
+  - Location
+  - REST
+  tags_raw:
+  - Rick and Morty
+  - Characters
+  - Episodes
   - Locations
   - REST
   properties:
@@ -79,6 +85,12 @@ apis:
   humanURL: https://rickandmortyapi.com/documentation#graphql
   baseURL: https://rickandmortyapi.com/graphql
   tags:
+  - Rick and Morty
+  - GraphQL
+  - Characters
+  - Episodes
+  - Location
+  tags_raw:
   - Rick and Morty
   - GraphQL
   - Characters
