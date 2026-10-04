@@ -5,16 +5,21 @@ description: Free REST and GraphQL API providing data about characters, location
   Offers access to 826 characters, 126 locations, and 51 episodes with filtering,
   pagination, and character images.
 deliveryModel:
-  model: unknown
-  open_source: unknown
+  model: open-core
+  license: BSD-3-Clause
+  license_evidence:
+    repo: afuh/rick-and-morty-api
+    spdx: BSD-3-Clause
+    stars: 1037
+  open_source: true
   commercial: true
   callable_host: false
-  label: Delivery model not determined — needs a product licence on record
-  confidence: low
+  label: Open core · an OSS project plus a commercial hosted product
+  confidence: medium
   source:
   - pricing
-  - repository-unlicensed
-  generated: '2026-08-28'
+  - repository-license
+  generated: '2026-09-25'
   method: derived
 accessModel:
   pricing: free
@@ -37,22 +42,21 @@ tags:
 - Rick and Morty
 - Characters
 - Episodes
-- Location
-- Entertainment
-- GraphQL
-- REST
-- Free
-- Open-Source
-tags_raw:
-- Rick and Morty
-- Characters
-- Episodes
-- Locations
 - Entertainment
 - GraphQL
 - REST
 - Free
 - Open Source
+tags_raw:
+- Rick and Morty
+- Characters
+- Episodes
+- Entertainment
+- GraphQL
+- REST
+- Free
+- Open Source
+- Open-Source
 apis:
 - name: Rick and Morty REST API
   description: RESTful API providing access to characters, locations, and episodes
@@ -137,3 +141,5 @@ common:
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
+x-tags-removed:
+- Location
