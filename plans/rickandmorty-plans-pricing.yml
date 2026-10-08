@@ -22,3 +22,18 @@ notes: >
   The API is maintained by Axel Fuhrmann as an open source project. Users are
   encouraged to support the project through Ko-fi or Buy Me a Coffee donations
   to help cover infrastructure costs (Netlify, Stellate CDN, DigitalOcean).
+x-canonical:
+  generated: '2026-10-08'
+  vocabulary: all/0-working/economics/plans-canonical.yml
+  models:
+  - free
+  units:
+  - period
+  plans:
+  - name: Free
+    access: other
+    model: free
+    model_how: derived
+    units:
+    - period
+    periods: []
